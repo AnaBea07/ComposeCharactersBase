@@ -1,6 +1,5 @@
 package com.example.composecharactersbase
 
-import com.example.composecharactersbase.ui.theme.Pokemon
 import retrofit2.http.GET
 import retrofit2.http.Path
 

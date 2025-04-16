@@ -6,10 +6,10 @@ data class Pokemon(
     val name: String,
     val height: Int,
     val weight: Int,
-    val baseExperience: Int,
+    val base_experience: Int,
     val sprites: Sprites
 )
 
 data class Sprites(
-    val frontDefault: String
+    val front_default: String
 )

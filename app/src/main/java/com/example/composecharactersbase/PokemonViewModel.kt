@@ -4,7 +4,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.composecharactersbase.ui.theme.Pokemon
 import kotlinx.coroutines.launch
 
 class PokemonListViewModel : ViewModel() {

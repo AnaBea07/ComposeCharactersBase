@@ -39,9 +39,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import com.example.composecharactersbase.ui.theme.Pokemon
-
-
 
 @Preview
 @Composable
@@ -126,7 +123,7 @@ fun CharacterCard(
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(
-                painter = rememberAsyncImagePainter(pokemon.sprites.frontDefault),
+                painter = rememberAsyncImagePainter(pokemon.sprites.front_default),
                 contentDescription = "Imagem do Pokémon",
                 modifier = Modifier.size(100.dp)
                     .size(100.dp)
